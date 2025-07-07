@@ -486,20 +486,34 @@ const GalleMap = () => {
   return (
     <div>
       <div ref={mapContainer} className="map-container" />
-      <div className="legend">
+      <div class="legend">
         <h4>Legend</h4>
-        <div className="legend-item">
-          <div
-            className="legend-color"
-            style={{ backgroundColor: "#FF6B6B" }}
-          />
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #ff6b6b"></div>
           <span>Universities & Education</span>
         </div>
-        <div className="legend-item">
-          <div
-            className="legend-color"
-            style={{ backgroundColor: "#F39C12" }}
-          />
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #4ecdc4"></div>
+          <span>Hospitals & Medical</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #45b7d1"></div>
+          <span>Transportation</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #96ceb4"></div>
+          <span>Parks & Nature</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #ffeaa7"></div>
+          <span>Recreation & Sports</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #dda0dd"></div>
+          <span>Service Centers</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #f39c12"></div>
           <span>Hotels & Accommodation</span>
         </div>
       </div>
