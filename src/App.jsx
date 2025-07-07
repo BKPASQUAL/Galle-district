@@ -486,34 +486,55 @@ const GalleMap = () => {
   return (
     <div>
       <div ref={mapContainer} className="map-container" />
-      <div class="legend">
+      <div className="legend">
         <h4>Legend</h4>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #ff6b6b"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#ff6b6b" }}
+          ></div>
           <span>Universities & Education</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #4ecdc4"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#4ecdc4" }}
+          ></div>
           <span>Hospitals & Medical</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #45b7d1"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#45b7d1" }}
+          ></div>
           <span>Transportation</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #96ceb4"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#96ceb4" }}
+          ></div>
           <span>Parks & Nature</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #ffeaa7"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#ffeaa7" }}
+          ></div>
           <span>Recreation & Sports</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #dda0dd"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#dda0dd" }}
+          ></div>
           <span>Service Centers</span>
         </div>
-        <div class="legend-item">
-          <div class="legend-color" style="background-color: #f39c12"></div>
+        <div className="legend-item">
+          <div
+            className="legend-color"
+            style={{ backgroundColor: "#f39c12" }}
+          ></div>
           <span>Hotels & Accommodation</span>
         </div>
       </div>
