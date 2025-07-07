@@ -10,9 +10,7 @@ export default defineConfig({
           // Separate Mapbox into its own chunk
           'mapbox-gl': ['mapbox-gl'],
           // Separate React into its own chunk
-          'react-vendor': ['react', 'react-dom'],
-          // Separate other vendor libraries
-          'vendor': ['react-router-dom'] // Add other large dependencies here
+          'react-vendor': ['react', 'react-dom']
         }
       }
     },
